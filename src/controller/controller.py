@@ -1,7 +1,7 @@
 from pip._vendor.distlib.compat import raw_input
 
-from model import Person
-import view
+from src.model.model import Person
+from src.view import view
 
 
 def showAll():

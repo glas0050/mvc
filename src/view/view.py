@@ -1,6 +1,3 @@
-from model import Person
-
-
 def showAllView(recordList):
     print('In our db we have %i users. Here they are:' % len(recordList))
     for item in recordList:
